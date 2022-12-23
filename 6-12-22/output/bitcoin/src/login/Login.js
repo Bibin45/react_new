@@ -28,8 +28,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Login() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
-  const{user}=useSelector((state)=>state.bitcoin)
+  const [open, setOpen] =useState(false);
   const dispatch=useDispatch()
   const handleOpen = () => {
     setOpen(true);

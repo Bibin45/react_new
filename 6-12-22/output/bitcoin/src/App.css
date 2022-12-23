@@ -105,14 +105,7 @@ tr {
     margin-top:25px;
     border-right: gray solid 2px;
   }
-.container{
-    display:'flex';
-      flex-direction:'column';
-      align-items:'center';
-      margin: 0 !important;
-      
-  
-}
+
 .bg-gold{
     background-color: goldenrod !important;
     

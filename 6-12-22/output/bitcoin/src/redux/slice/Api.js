@@ -29,7 +29,6 @@ export const apiSlice = createSlice({
   },
   setEachcoin:(state,action)=>{
     state.eachcoin=action.payload
-    
   },
   setChart:(state,action)=>{
     state.chart=action.payload

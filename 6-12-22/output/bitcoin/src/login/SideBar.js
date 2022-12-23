@@ -129,7 +129,7 @@ export default function UserSidebar() {
             }}
             src={user.photoURL}
             alt={user.displayName || user.email}
-          />
+          /> 
           <Drawer
             anchor={anchor}
             open={state[anchor]}
